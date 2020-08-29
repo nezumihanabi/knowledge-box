@@ -1,0 +1,10 @@
+
+CREATE TABLE `knowleadges` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `memo` varchar(1000) COLLATE utf8mb4_general_ci NOT NULL,
+  `file` blob,
+  `filename` text COLLATE utf8mb4_general_ci,
+  `createdAt` timestamp NULL DEFAULT NULL,
+  `updatedAt` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
